@@ -28,3 +28,9 @@ def measure_average():
     distance = distance1 + distance2 + distance3
     distance = distance / 3
     return distance
+GPIO_setmode(GPIO.BCM)
+
+GPIO_TRIGGER = 23
+GPIO_ECHO    = 24
+servo        = 18
+print("Ultrasonic Measurement")
