@@ -45,3 +45,20 @@ GPIO.output(GPIO_TRIGGER, False)
 p=GPIO.PWM(servo, 50)
 p.start(2.5)
 try: 
+
+
+    while True
+    
+        distance  = measure_average()
+        print("Distance : %.1f" % distance)
+        time.sleep(1)
+        
+        if distance  <=10:
+        print("angle: 1")
+        p.ChangedutyCycle(2.5)
+        else :
+        print("angle :5")
+        p.changedutycycle(7.5)
+
+except keyboardinterrupt:
+    GPIO.cleanup()
