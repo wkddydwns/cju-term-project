@@ -56,9 +56,25 @@ try:
         if distance  <=1:
         print("angle: 1")
         p.ChangedutyCycle(2.5)
-        else :
-        print("angle :5")
-        p.changedutycycle(7.5)
+         distance  1<=2
+        print("angle: 2")
+        p.ChangedutyCycle(3) 
+         distance  2<=3       
+        print("angle: 3")
+        p.ChangedutyCycle(3.5)
+         distance  3<=4 
+        print("angle: 4")
+         distance  4<=5
+        p.ChangedutyCycle(4)
+        print("angle: 5")
+         distance  5<=6
+        p.ChangedutyCycle(4.5)
+        print("angle: 6")
+         distance  6<=7
+        p.ChangedutyCycle(5)
+        
+        else :GPIO.cleanup()
+        
 
 except keyboardinterrupt:
-    GPIO.cleanup()
+    
